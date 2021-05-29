@@ -5,6 +5,7 @@
  - [x] Each product have a time to be ready
  - [x] The orders are created by express
  - [x] If the preparation of some product fail, the order preparation does not finishes and it keeps in the queue.
+ - [x] Not implemented an error situation
 
 #### To run this project you need to run redis
 
