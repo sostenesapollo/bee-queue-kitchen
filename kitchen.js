@@ -14,6 +14,11 @@ const placeOrder = (order) => {
 }
 
 cookQueue.process(1, (job, done) => {
+
+    cookQueue.checkHealth().then(count => {
+        console.log('total:', count);
+    });
+
     const { products } = job.data
     let readyProducts = 0
     var totalProducts = products.length
