@@ -1,7 +1,11 @@
+![image](https://user-images.githubusercontent.com/35838667/120058132-1b54e600-c01f-11eb-82bb-fd71680ac3c3.png)
+
+
 #### Using bee-queue to create a kitchen
  - [x] Each product have a time to be ready
  - [x] The orders are created by express
  - [x] If the preparation of some product fail, the order preparation does not finishes and it keeps in the queue.
+ - [x] Not implemented an error situation
 
 #### To run this project you need to run redis
 
